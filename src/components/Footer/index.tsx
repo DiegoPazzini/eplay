@@ -1,4 +1,3 @@
-import { memoryUsage } from 'process'
 import * as S from './styles'
 import { FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
@@ -91,6 +90,7 @@ const Footer = () => (
                     marginBottom: '-60px',
                     marginRight: '20px'
                   }}
+                  title="Clique aqui para entrar em contato"
                 />
               </a>
             </li>
@@ -108,6 +108,7 @@ const Footer = () => (
                     marginBottom: '-60px',
                     marginRight: '20px'
                   }}
+                  title="Clique aqui para entrar em contato"
                 />
               </a>
             </li>
@@ -125,6 +126,7 @@ const Footer = () => (
                     marginBottom: '-60px',
                     marginRight: '20px'
                   }}
+                  title="Clique aqui para entrar em contato"
                 />
               </a>
             </li>
@@ -133,6 +135,7 @@ const Footer = () => (
                 href="https://www.linkedin.com/in/diego-pazzini/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Clique aqui para visualizar meus projetos"
               >
                 <FaLinkedin
                   color="#0077b5"
